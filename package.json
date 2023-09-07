@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/uk-taniyama/vjs-query/issues"
   },
-  "homepage": "https://github.com/uk-taniyama/vjs-query#readme",
+  "homepage": "https://uk-taniyama.github.io/vjs-query/",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
