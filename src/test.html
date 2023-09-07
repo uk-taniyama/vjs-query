@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample HTML Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="main-content">
+    <h2>About Us</h2>
+    <p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at hendrerit velit. Donec euismod, tellus in
+      gravida sodales, nulla sapien posuere libero, a rhoncus libero ligula eu elit.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Web Design</li>
+      <li>Graphic Design</li>
+      <li>Mobile App Development</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form action="/submit" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sample Company. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
